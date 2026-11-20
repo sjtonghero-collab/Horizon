@@ -1,11 +1,12 @@
 {
   "ai": {
-    "provider": "gemini",
-    "model": "gemini-2.5-flash-lite",
-    "api_key_env": "GOOGLE_API_KEY",
+    "provider": "openai",
+    "model": "glm-5.3-flash",
+    "base_url": "https://amr-link.open-design.ai/v1",
+    "api_key_env": "OPENAI_API_KEY",
     "temperature": 0.3,
     "max_tokens": 8192,
-    "throttle_sec": 2,
+    "throttle_sec": 1,
     "languages": [
       "zh"
     ],
@@ -123,7 +124,7 @@
       ]
     },
     "twitter": {
-      "enabled": true,
+      "enabled": false,
       "mode": "playwright",
       "users": [
         "karpathy",

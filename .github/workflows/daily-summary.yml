@@ -50,7 +50,7 @@ jobs:
 
       - name: Run Horizon
         env:
-          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: uv run horizon --hours 24
 
       - name: Set date
