@@ -123,10 +123,14 @@
       ]
     },
     "twitter": {
-      "enabled": true,
+      "enabled": false,
       "mode": "playwright",
       "users": [
-        "karpathy"
+        "karpathy",
+        "sama",
+        "AnthropicAI",
+        "OpenAI",
+        "GoogleDeepMind"
       ],
       "fetch_limit": 10,
       "cookie_dir": "data",
