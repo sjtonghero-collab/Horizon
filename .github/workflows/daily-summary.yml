@@ -52,7 +52,7 @@ jobs:
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: uv run horizon --hours 24
+        run: xvfb-run -a uv run horizon --hours 24
 
       - name: Set date
         run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
