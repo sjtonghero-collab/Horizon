@@ -66,6 +66,10 @@ def build(posts_dir: Path, out: Path, days: int, limit: int) -> int:
         _, items = parse_post(path)
         collected.extend(items)
 
+    if not collected:
+        print("no entries parsed; keeping existing feed untouched")
+        return 0
+
     entries = []
     for idx, item in enumerate(collected[:limit]):
         try:
