@@ -123,7 +123,7 @@
       ]
     },
     "twitter": {
-      "enabled": false,
+      "enabled": true,
       "mode": "playwright",
       "users": [
         "karpathy",
