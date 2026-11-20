@@ -48,6 +48,7 @@ jobs:
       - name: Run Horizon
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: uv run horizon --hours 24
 
       - name: Set date
