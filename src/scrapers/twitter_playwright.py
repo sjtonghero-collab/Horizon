@@ -128,8 +128,8 @@ class TwitterPlaywrightScraper(BaseScraper):
                 cookies = _load_browser_cookies(str(cf))
                 ctx = await browser.new_context(
                     user_agent=(
-                        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                        f"AppleWebKit/537.36 (KHTML, like Gecko) Chrome/13{i}.0.0.0 Safari/537.36"
+                        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
                     ),
                     viewport={"width": 1280, "height": 800},
                     locale="en-US",
@@ -145,7 +145,7 @@ class TwitterPlaywrightScraper(BaseScraper):
                 page = await ctx.new_page()
                 try:
                     await page.goto("https://x.com/home", wait_until="domcontentloaded", timeout=45000)
-                    await asyncio.sleep(2)
+                    await asyncio.sleep(6)
                     logger.info("Cookie #%d warm-up done", i + 1)
                 except Exception as exc:
                     logger.warning("Cookie #%d warm-up failed: %s", i + 1, exc)
