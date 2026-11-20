@@ -1,0 +1,44 @@
+name: debug-x
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.11.26"
+      - name: Install
+        run: |
+          uv sync --extra twitter
+          uv run playwright install chromium --with-deps
+      - name: Write cookies
+        env:
+          X_COOKIES: ${{ secrets.X_COOKIES }}
+        run: |
+          mkdir -p data
+          printf '%s' "$X_COOKIES" > data/x_cookies_1.json
+          python3 -c "import json;d=json.load(open('data/x_cookies_1.json'));print('cookies:',len(d),[c['name'] for c in d])"
+      - name: Open X with cookies
+        run: |
+          uv run python - <<'PY'
+          import json
+          from playwright.sync_api import sync_playwright
+          cookies = json.load(open("data/x_cookies_1.json"))
+          with sync_playwright() as p:
+              b = p.chromium.launch()
+              ctx = b.new_context()
+              ctx.add_cookies(cookies)
+              page = ctx.new_page()
+              page.goto("https://x.com/home", wait_until="domcontentloaded", timeout=90000)
+              print("TITLE:", page.title())
+              print("URL:", page.url)
+              body = page.inner_text("body")[:600].replace("\n", " | ")
+              print("BODY:", body)
+              b.close()
+          PY
