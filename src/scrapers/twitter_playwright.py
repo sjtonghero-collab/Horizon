@@ -114,7 +114,10 @@ class TwitterPlaywrightScraper(BaseScraper):
         lock = asyncio.Lock()
 
         async with Stealth().use_async(async_playwright()) as p:  # type: ignore[union-attr]
-            launch_kwargs: dict = {"headless": True}
+            launch_kwargs: dict = {
+                "headless": False,
+                "args": ["--disable-blink-features=AutomationControlled"],
+            }
             proxy = _get_proxy()
             if proxy:
                 launch_kwargs["proxy"] = {"server": proxy}
@@ -141,7 +144,7 @@ class TwitterPlaywrightScraper(BaseScraper):
             for i, ctx in enumerate(contexts):
                 page = await ctx.new_page()
                 try:
-                    await page.goto("https://x.com/home", wait_until="domcontentloaded", timeout=15000)
+                    await page.goto("https://x.com/home", wait_until="domcontentloaded", timeout=45000)
                     await asyncio.sleep(2)
                     logger.info("Cookie #%d warm-up done", i + 1)
                 except Exception as exc:
