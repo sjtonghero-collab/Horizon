@@ -126,11 +126,7 @@
       "enabled": true,
       "mode": "playwright",
       "users": [
-        "karpathy",
-        "sama",
-        "AnthropicAI",
-        "OpenAI",
-        "GoogleDeepMind"
+        "karpathy"
       ],
       "fetch_limit": 10,
       "cookie_dir": "data",
