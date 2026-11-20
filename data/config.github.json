@@ -17,7 +17,7 @@
     "default_profile": "tech-news",
     "profile_settings": {
       "tech-news": {
-        "threshold": 5.5,
+        "threshold": 4,
         "topic_dedup": true
       },
       "tech-blog": {
@@ -141,7 +141,7 @@
     "time_window_hours": 24
   },
   "digest": {
-    "max_items": 15,
+    "max_items": 30,
     "profile_order": [
       "tech-news",
       "tech-blog"
