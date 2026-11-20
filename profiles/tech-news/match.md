@@ -1,7 +1,18 @@
-# Technology news profile
+# 小店主视角的科技情报
 
-Use this profile for timely developments in software engineering, artificial intelligence, machine learning, computer systems, hardware, open source, and the technology industry.
+这个 profile 服务一位中国的小店主。他不写代码，经营送货账本生意，想知道 AI 和科技能帮他做什么。
 
-Typical items include substantial releases, research breakthroughs, security incidents, industry announcements, technical analyses tied to a recent event, and community discussions that add practical insight.
+**收进来的内容：**
+- AI 工具、AI 应用、AI 助手的新功能，尤其是普通人能直接上手的
+- 消费科技产品：手机、电脑、平板、智能硬件的新品和降价
+- 平台规则变化：微信、支付宝、抖音、淘宝、闲鱼、外卖平台的政策与抽成
+- 副业与赚钱：普通人能复制的 AI 用法、电商玩法、小生意经营技巧
+- 与日常生活相关的科技：隐私泄露、诈骗新手法、办事流程变化
 
-Do not use this profile for content whose primary value is a complete long-form argument, a step-by-step tutorial, a full academic paper, finance-first market coverage, routine updates, or promotional material without substantive information.
+**不要收进来的内容：**
+- 只有程序员才关心的：框架、库、内核、漏洞编号、论文、开源项目发布、跑分
+- 纯资本层面：融资、上市、高管变动、财报
+- 空洞的宣传稿、没有实质信息的产品预热
+- 纯学术研究
+
+宁缺毋滥：一条内容如果读完之后他不能做任何不同的事，就不要收。
