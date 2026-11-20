@@ -1,7 +1,7 @@
 {
   "ai": {
     "provider": "gemini",
-    "model": "gemini-2.5-flash-lite",
+    "model": "gemini-3.5-flash-lite",
     "api_key_env": "GOOGLE_API_KEY",
     "temperature": 0.3,
     "max_tokens": 8192,
@@ -17,7 +17,7 @@
     "default_profile": "tech-news",
     "profile_settings": {
       "tech-news": {
-        "threshold": 6.5,
+        "threshold": 5.5,
         "topic_dedup": true
       },
       "tech-blog": {
