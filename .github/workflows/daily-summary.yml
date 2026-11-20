@@ -8,7 +8,7 @@ on:
 
 jobs:
   daily-summary:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       contents: write
     timeout-minutes: 45
@@ -28,10 +28,7 @@ jobs:
           version: "0.11.26"
 
       - name: Install dependencies
-        run: uv sync --extra twitter
-
-      - name: Install Chromium for X scraping
-        run: uv run playwright install chromium --with-deps
+        run: uv sync
 
       - name: Prepare config
         run: cp data/config.github.json data/config.json
