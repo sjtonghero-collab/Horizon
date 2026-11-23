@@ -3,19 +3,31 @@
   <title>Horizon 新闻雷达 · 逐条</title>
   <link href="https://sjtonghero-collab.github.io/Horizon/feed-items.xml" rel="self"/>
   <link href="https://sjtonghero-collab.github.io/Horizon/"/>
-  <updated>2026-11-22T03:02:55Z</updated>
+  <updated>2026-11-23T03:44:47Z</updated>
   <id>https://sjtonghero-collab.github.io/Horizon/feed-items.xml</id>
   <author><name>Horizon</name></author>
 <entry>
-  <title>Gemini 可单独关训练</title>
-  <link href="https://blog.google/innovation-and-ai/products/gemini-app/updated-controls/"/>
-  <id>urn:horizon:a1355b7ade2ce09d264af796f33ebadab10b6334</id>
-  <updated>2026-11-22T00:01:00Z</updated>
-  <content type="html"><![CDATA[<p>⭐️ 7.0/10</p>
-<p>谷歌更新了 Gemini 的设置，以后你可以单独把“拿你的聊天内容去训练 AI”这个功能关掉。同时，你还能继续保留以前的聊天历史记录，不用像以前那样必须“一刀切”全关或全开。</p>
-<p>telegram · zaihuapd · 11月22日 01:24</p>
-<p><strong>「背景」</strong> 以前用这类 AI 聊天时，为了能回头翻看历史记录，系统默认会把你的对话内容拿去当教材训练 AI，这让很多人担心商业和个人隐私泄露。</p>
-<p><strong>「对你有啥用」</strong> 如果你平时用 Gemini 算账、记客户需求或者处理店里的隐私数据，这个功能太实用啦。你可以放心大胆地把进货价、客户要求发给 AI 帮忙处理，不用担心你的商业机密被谷歌拿去喂模型了。</p>
-<p><strong>标签</strong>: <code>#人工智能</code>, <code>#隐私安全</code>, <code>#实用技巧</code>, <code>#Google Gemini</code></p><p><a href="https://blog.google/innovation-and-ai/products/gemini-app/updated-controls/">阅读原文</a></p>]]></content>
+  <title>腾讯新出语音输入工具</title>
+  <link href="https://chatterfly.tencent.com/"/>
+  <id>urn:horizon:76693826741ccf611f6d3e277365cce9d6216907</id>
+  <updated>2026-11-23T00:02:00Z</updated>
+  <content type="html"><![CDATA[<p>⭐️ 8.0/10</p>
+<p>腾讯最近推出了一个叫 Chatterfly 的 AI 语音输入工具，正在限时免费内测。它不仅能把你说的话变成文字，还能帮你把乱七八糟的口语整理成通顺的文章。现在电脑和安卓手机都能用，苹果手机的版本也快出了。</p>
+<p>telegram · zaihuapd · 11月22日 12:36</p>
+<p><strong>「背景」</strong> 以前的语音输入只是简单地把声音变成字，经常错漏百出，还得自己花时间重新修改。现在的 AI 工具更聪明一点，能根据前后文猜出你想说什么。</p>
+<p><strong>「对你有什么用」</strong> 如果你平时要在手机或电脑上给客户回长消息、写送货单备注或者记账，用这个动嘴说就行，能省不少打字的时间。现在内测是免费的，你可以下载试试顺不顺手。</p>
+<p><strong>标签</strong>: <code>#人工智能</code>, <code>#语音输入</code>, <code>#效率工具</code>, <code>#腾讯</code></p><p><a href="https://chatterfly.tencent.com/">阅读原文</a></p>]]></content>
+</entry>
+<entry>
+  <title>UU 远程免费功能说明</title>
+  <link href="https://www.xiaohongshu.com/discovery/item/6affe8f6000000001603d91d"/>
+  <id>urn:horizon:49948fa7291a5ebf070f998cebd5444140c14b60</id>
+  <updated>2026-11-23T00:01:00Z</updated>
+  <content type="html"><![CDATA[<p>⭐️ 6.0/10</p>
+<p>网易 UU 远程软件对大家关心的收费问题做了说明，文件传输等功能免费版都可以用。付费的 VIP 主要多了一些功能，比如自定义屏保、远程时黑屏保护以及按键映射；年卡五折优惠只有第一年有，以后老用户续费也会有别的优惠。</p>
+<p>telegram · zaihuapd · 11月22日 14:37</p>
+<p><strong>「背景」</strong> 之前网易 UU 远程出了个 VIP 收费公告，大家看了有点糊涂，不知道哪些功能要花钱，官方这次专门出来解释清楚。</p>
+<p><strong>「对你有什么用」</strong> 如果你平时用它连别的电脑，传个文件啥的不用花钱，可以继续白嫖。要是对隐私要求高、想让别人看不到你远程时的屏幕，才需要考虑花钱买 VIP。</p>
+<p><strong>标签</strong>: <code>#远程协助</code>, <code>#软件更新</code>, <code>#网易UU</code>, <code>#小微工具</code></p><p><a href="https://www.xiaohongshu.com/discovery/item/6affe8f6000000001603d91d">阅读原文</a></p>]]></content>
 </entry>
 </feed>
